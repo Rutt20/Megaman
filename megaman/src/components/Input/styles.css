@@ -1,0 +1,24 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.label-input {
+    font-size: 25px;
+}
+
+.input-style {
+    border: 1px solid  var(--medium-gray);
+    border-radius: 5px;
+    width: 100%;
+    padding: 3%;
+    font-size: 20px;
+}
+
+.input-error{
+    color: red;
+    font-family: var(--main-font);
+    margin-bottom: 0;
+}

@@ -1,0 +1,41 @@
+.delete-modal {
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.delete-modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 15%;
+}
+
+.delete-modal-title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.delete-modal-button-container {
+    width: 80%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}   
+
+.delete-modal-button {
+    font-size: 25px;
+    width: 40%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
